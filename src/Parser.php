@@ -24,7 +24,7 @@ class Parser
         }
     }
 
-    public function processContent()
+    public function processContent(): void
     {
         $dom = new DOMDocument();
         @$dom->loadHtml($this->content);

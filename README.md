@@ -1,10 +1,10 @@
-##test url parser A3F Group
-###php7.4
+## test url parser A3F Group
+### php7.4
 из директории в которую был clone проекта
 
 ```/usr/bin/php parseHtmlTags.php https://www.w3.org/```
 
-####output
+#### output
 
 ```json
 {
