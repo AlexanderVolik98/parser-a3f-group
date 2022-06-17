@@ -13,6 +13,6 @@ class CurlErrorException extends RuntimeException
 
     public function getCurlMessageError(): string
     {
-        return 'Ошибка переданного ресурса: ' . $this->getMessage() . ' Код ошибки: ' . $this->getCode();
+        return 'Ошибка переданного ресурса: ' . $this->getMessage() . ' Код ошибки: ' . $this->getCode() . PHP_EOL;
     }
 }

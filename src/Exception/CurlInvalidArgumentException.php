@@ -17,6 +17,6 @@ class CurlInvalidArgumentException extends InvalidArgumentException
 
     public function getCurlMessageError(): string
     {
-        return 'Передан некорректный url: ' . $this->url;
+        return 'Передан некорректный url: ' . $this->url . PHP_EOL;
     }
 }

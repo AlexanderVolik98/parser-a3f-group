@@ -2,7 +2,11 @@
 ### php7.4
 из директории в которую был clone проекта
 
-```/usr/bin/php parseHtmlTags.php https://www.w3.org/```
+```/usr/bin/php parseHtmlTags.php ```
+
+далее необходимо указать идентификатор типа источника и
+- путь до файла если это файл, например ./files/World_Wide_Web_Consortium.html
+- адрес если это url, например https://www.w3.org/
 
 #### output
 
